@@ -16,7 +16,8 @@
             app:layout_constraintBottom_toTopOf="@+id/red_text"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:text="text resource red"/>
+            android:textColor="@color/red"
+            android:text="color Resource Red"/>
     <TextView
             android:id="@+id/red_text"
             android:layout_width="wrap_content"
