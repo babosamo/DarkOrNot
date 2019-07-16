@@ -9,29 +9,66 @@
         tools:showIn="@layout/app_bar_main"
         tools:context=".MainActivity">
 
+
     <TextView
-            android:id="@+id/red_resource"
+            android:id="@+id/android_resource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/color_resource_black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="@android:color/black"
+            android:text="android color Resource black"/>
+    <TextView
+            android:id="@+id/color_resource_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/color_black"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="@color/black"
+            android:text="color Resource black(000000)"/>
+    <TextView
+            android:id="@+id/color_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/cyon_resource"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textColor="#000000"
+            android:text="black #000000"/>
+    <TextView
+            android:id="@+id/cyon_resource"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="@+id/red_text"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:textColor="@color/red"
-            android:text="color Resource Red"/>
+            android:textColor="@color/cyan"
+            android:text="color Resource Cyan(00ffff)"/>
     <TextView
             android:id="@+id/red_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#ff0000"
+            app:layout_constraintBottom_toTopOf="@+id/red_resource"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="text #ff0000"/>
+    <TextView
+            android:id="@+id/red_resource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
             app:layout_constraintBottom_toTopOf="@+id/hello_text"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:text="text color #ff0000"/>
+            android:text="text color red"/>
     <TextView
             android:id="@+id/hello_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:text="default secondary text material light"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
