@@ -34,37 +34,37 @@ class PaletteActivity : AppCompatActivity() {
     private fun initView() {
         button_6200EE.setOnClickListener {
             makeColor(Color.parseColor("#6200ee"))
-            getThemeColor(R.color.cyan)
+            getThemeColor(R.color.c_6200EE)
         }
 
         button_3700B3.setOnClickListener {
             makeColor(Color.parseColor("#3700b3"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_3700B3)
         }
 
         button_03DAC6.setOnClickListener {
             makeColor(Color.parseColor("#03DAC6"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_03DAC6)
         }
 
         button_018786.setOnClickListener {
             makeColor(Color.parseColor("#018786"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_018786)
         }
 
         button_FFFFFF.setOnClickListener {
             makeColor(Color.parseColor("#FFFFFF"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_FFFFFF)
         }
 
         button_000000.setOnClickListener {
             makeColor(Color.parseColor("#000000"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_018786)
         }
 
         button_B00020.setOnClickListener {
             makeColor(Color.parseColor("#B00020"))
-            getThemeColor(it.id)
+            getThemeColor(R.color.c_B00020)
         }
     }
 

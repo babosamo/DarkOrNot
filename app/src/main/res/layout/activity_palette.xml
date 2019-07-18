@@ -8,69 +8,69 @@
         android:padding="20dp">
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="#6200EE"
-            android:background="#6200EE"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/button_3700B3"
-            android:textColor="#ffffff"
-            android:id="@+id/button_6200EE"/>
+                                               android:text="#6200EE"
+                                               android:background="@color/c_6200EE"
+                                               app:layout_constraintStart_toStartOf="parent"
+                                               app:layout_constraintTop_toTopOf="parent"
+                                               app:layout_constraintEnd_toStartOf="@id/button_3700B3"
+                                               android:textColor="#ffffff"
+                                               android:id="@+id/button_6200EE"/>
 
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="#3700B3"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/button_6200EE"
-            app:layout_constraintEnd_toStartOf="@+id/button_03DAC6"
-            android:background="#3700B3"
-            android:textColor="#ffffff"
-            android:id="@+id/button_3700B3"/>
+                                               android:text="#3700B3"
+                                               app:layout_constraintTop_toTopOf="parent"
+                                               app:layout_constraintStart_toEndOf="@id/button_6200EE"
+                                               app:layout_constraintEnd_toStartOf="@+id/button_03DAC6"
+                                               android:background="@color/c_3700B3"
+                                               android:textColor="#ffffff"
+                                               android:id="@+id/button_3700B3"/>
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="#03DAC63"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/button_3700B3"
-            android:background="#03DAC6"
-            android:id="@+id/button_03DAC6"/>
+                                               android:text="#03DAC6"
+                                               app:layout_constraintTop_toTopOf="parent"
+                                               app:layout_constraintEnd_toEndOf="parent"
+                                               app:layout_constraintStart_toEndOf="@id/button_3700B3"
+                                               android:background="@color/c_03DAC6"
+                                               android:id="@+id/button_03DAC6"/>
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/button_6200EE"
-            android:layout_marginTop="10dp"
-            android:text="#018786"
-            app:layout_constraintStart_toStartOf="parent"
-            android:background="#018786"
-            app:layout_constraintEnd_toStartOf="@id/button_FFFFFF"
-            android:id="@+id/button_018786"/>
+                                               app:layout_constraintTop_toBottomOf="@id/button_6200EE"
+                                               android:layout_marginTop="10dp"
+                                               android:text="#018786"
+                                               app:layout_constraintStart_toStartOf="parent"
+                                               android:background="@color/c_018786"
+                                               app:layout_constraintEnd_toStartOf="@id/button_FFFFFF"
+                                               android:id="@+id/button_018786"/>
 
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/button_6200EE"
-            android:layout_marginTop="10dp"
-            android:text="#FFFFFF"
-            app:layout_constraintStart_toEndOf="@+id/button_018786"
-            android:background="#FFFFFF"
-            app:layout_constraintEnd_toStartOf="@id/button_000000"
-            android:id="@+id/button_FFFFFF"/>
+                                               app:layout_constraintTop_toBottomOf="@id/button_6200EE"
+                                               android:layout_marginTop="10dp"
+                                               android:text="#FFFFFF"
+                                               app:layout_constraintStart_toEndOf="@+id/button_018786"
+                                               android:background="@color/c_FFFFFF"
+                                               app:layout_constraintEnd_toStartOf="@id/button_000000"
+                                               android:id="@+id/button_FFFFFF"/>
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/button_6200EE"
-            android:layout_marginTop="10dp"
-            android:text="#000000"
-            app:layout_constraintStart_toEndOf="@id/button_FFFFFF"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:background="#000000"
-            android:textColor="#ffffff"
-            android:id="@+id/button_000000"/>
+                                               app:layout_constraintTop_toBottomOf="@id/button_6200EE"
+                                               android:layout_marginTop="10dp"
+                                               android:text="#000000"
+                                               app:layout_constraintStart_toEndOf="@id/button_FFFFFF"
+                                               app:layout_constraintEnd_toEndOf="parent"
+                                               android:background="@color/c_000000"
+                                               android:textColor="#ffffff"
+                                               android:id="@+id/button_000000"/>
 
     <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/button_018786"
-            android:layout_marginTop="10dp"
-            android:text="#B00020"
-            app:layout_constraintStart_toStartOf="parent"
-            android:background="#B00020"
-            app:layout_constraintEnd_toStartOf="@id/button_FFFFFF"
-            android:id="@+id/button_B00020"/>
+                                               app:layout_constraintTop_toBottomOf="@id/button_018786"
+                                               android:layout_marginTop="10dp"
+                                               android:text="#B00020"
+                                               app:layout_constraintStart_toStartOf="parent"
+                                               android:background="@color/c_B00020"
+                                               app:layout_constraintEnd_toStartOf="@id/button_FFFFFF"
+                                               android:id="@+id/button_B00020"/>
 
 
     <View android:layout_width="match_parent" android:layout_height="2dp"

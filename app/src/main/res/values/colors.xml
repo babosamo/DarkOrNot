@@ -6,4 +6,16 @@
     <color name="cyan">#00ffff</color>
     <color name="dark_red">#cc0000</color>
     <color name="black">#000000</color>
+
+
+    <!-- button color -->
+
+    <color name="c_6200EE">#6200EE</color>
+    <color name="c_3700B3">#3700B3</color>
+    <color name="c_03DAC6">#03DAC6</color>
+    <color name="c_018786">#018786</color>
+    <color name="c_FFFFFF">#FFFFFF</color>
+    <color name="c_000000">#000000</color>
+    <color name="c_B00020">#B00020</color>
+
 </resources>
