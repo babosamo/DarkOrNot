@@ -7,7 +7,7 @@
         tools:context=".PaletteActivity"
         android:padding="20dp">
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="#6200EE"
             android:background="#6200EE"
             app:layout_constraintStart_toStartOf="parent"
@@ -17,7 +17,7 @@
             android:id="@+id/button_6200EE"/>
 
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="#3700B3"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/button_6200EE"
@@ -26,7 +26,7 @@
             android:textColor="#ffffff"
             android:id="@+id/button_3700B3"/>
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="#03DAC63"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
             android:background="#03DAC6"
             android:id="@+id/button_03DAC6"/>
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/button_6200EE"
             android:layout_marginTop="10dp"
             android:text="#018786"
@@ -44,7 +44,7 @@
             android:id="@+id/button_018786"/>
 
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/button_6200EE"
             android:layout_marginTop="10dp"
             android:text="#FFFFFF"
@@ -53,7 +53,7 @@
             app:layout_constraintEnd_toStartOf="@id/button_000000"
             android:id="@+id/button_FFFFFF"/>
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/button_6200EE"
             android:layout_marginTop="10dp"
             android:text="#000000"
@@ -63,7 +63,7 @@
             android:textColor="#ffffff"
             android:id="@+id/button_000000"/>
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <androidx.appcompat.widget.AppCompatButton android:layout_width="wrap_content" android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/button_018786"
             android:layout_marginTop="10dp"
             android:text="#B00020"
