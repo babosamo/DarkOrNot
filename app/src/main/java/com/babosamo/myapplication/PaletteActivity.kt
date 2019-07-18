@@ -15,9 +15,6 @@ import androidx.core.graphics.alpha
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.palette.graphics.Palette
 import kotlinx.android.synthetic.main.activity_palette.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.Job
 
 
 class PaletteActivity : AppCompatActivity() {
