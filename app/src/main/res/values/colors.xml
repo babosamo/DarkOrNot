@@ -20,4 +20,6 @@
 
     <color name="image_overlay">#00000000</color>
 
+    <color name="icon_white">#ffffff</color>
+
 </resources>

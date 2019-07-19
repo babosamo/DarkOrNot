@@ -5,4 +5,6 @@
     <color name="black">#22000000</color>
 
     <color name="image_overlay">#77808080</color>
+
+    <color name="icon_white">#909090</color>
 </resources>
