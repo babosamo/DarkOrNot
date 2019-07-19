@@ -51,6 +51,7 @@
                                                android:text="#FFFFFF"
                                                app:layout_constraintStart_toEndOf="@+id/button_018786"
                                                android:background="@color/c_FFFFFF"
+                                               android:textColor="#000000"
                                                app:layout_constraintEnd_toStartOf="@id/button_000000"
                                                android:id="@+id/button_FFFFFF"/>
 
