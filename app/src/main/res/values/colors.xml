@@ -18,4 +18,6 @@
     <color name="c_000000">#000000</color>
     <color name="c_B00020">#B00020</color>
 
+    <color name="image_overlay">#00000000</color>
+
 </resources>

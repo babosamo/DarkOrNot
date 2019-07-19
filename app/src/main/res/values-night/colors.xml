@@ -3,4 +3,6 @@
     <color name="cyan">#2200ffff</color>
     <color name="dark_red">#22cc0000</color>
     <color name="black">#22000000</color>
+
+    <color name="image_overlay">#77808080</color>
 </resources>
