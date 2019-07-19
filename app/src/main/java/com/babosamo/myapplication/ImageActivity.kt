@@ -3,14 +3,14 @@ package com.babosamo.myapplication
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_image_icon.*
+import kotlinx.android.synthetic.main.activity_image.*
 
 
-class ImageIconActivity : AppCompatActivity() {
+class ImageActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_image_icon)
+        setContentView(R.layout.activity_image)
         initView()
     }
 

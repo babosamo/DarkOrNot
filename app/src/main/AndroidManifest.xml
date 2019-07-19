@@ -17,10 +17,11 @@
         </activity>
         <activity android:name=".PaletteActivity">
         </activity>
-        <activity android:name=".ImageIconActivity">
+        <activity android:name=".ImageActivity">
+        </activity>
+        <activity android:name=".IconActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
