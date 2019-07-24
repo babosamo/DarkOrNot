@@ -4,7 +4,7 @@
                                                    xmlns:tools="http://schemas.android.com/tools"
                                                    android:layout_width="match_parent"
                                                    android:layout_height="match_parent"
-                                                   android:background="@color/icon_white"
+                                                   android:background="@color/c_FFFFFF"
                                                    android:padding="50dp"
                                                    tools:context=".ElevationActivity">
 
