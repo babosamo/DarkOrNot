@@ -20,8 +20,11 @@
         <activity android:name=".ImageActivity">
         </activity>
         <activity android:name=".IconActivity">
+        </activity>
+        <activity android:name=".ElevationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
