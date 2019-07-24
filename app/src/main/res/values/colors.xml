@@ -6,7 +6,7 @@
     <color name="cyan">#00ffff</color>
     <color name="dark_red">#cc0000</color>
     <color name="black">#000000</color>
-
+    <color name="colorSurface">#eeeeee</color>
 
     <!-- button color -->
 
@@ -21,5 +21,6 @@
     <color name="image_overlay">#00000000</color>
 
     <color name="icon_white">#ffffff</color>
+
 
 </resources>
